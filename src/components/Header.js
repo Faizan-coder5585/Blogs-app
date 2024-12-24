@@ -113,20 +113,24 @@ const [isOpen, setIsOpen] = useState(false);
             <Link href="/">Home</Link>
           </li>
           <li className="text-gray-700 hover:text-blue-500 list-none text-xl font-bold uppercase border-b-2 w-full text-center py-2">
-            <Link href="#about" >About Us</Link>
+            <Link href="/about" >About Us</Link>
           </li>
           <li className="text-gray-700 hover:text-blue-500 list-none text-xl font-bold uppercase border-b-2 w-full text-center py-2">
-            <Link href="#services">Services</Link>
+            <Link href="/services">Services</Link>
           </li>
           <li className="text-gray-700 hover:text-blue-500 list-none text-xl font-bold uppercase border-b-2 w-full text-center py-2">
-            <Link href="#contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </nav>
 
         <div className="flex  items-center justify-center">
-          <div className="flex flex-col gap-2 text-center justify-center w-[40%] ">
+          <div className="flex flex-col gap-2 text-center justify-center w-[50%] ">
+          <Link href="/account">
             <button  className="text-2xl bg-yellow-400 text-slate-800 hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold  py-2  text-1xl lg:text-base text-nowrap ">Login</button>
+          </Link>
+          <Link href="/account">
               <button className="text-2xl text-nowrap text-1xl lg:text-base  border-2 border-[#CEFF00] text-slate-800 rounded-full d-blog  py-2  font-bold" >Sign Up</button>
+          </Link>
           </div>
         </div>
 
