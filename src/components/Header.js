@@ -9,7 +9,7 @@ const [isOpen, setIsOpen] = useState(false);
   return (
 
     <header className="absolute top-0 right-0 left-0  border-b-[2px] border-gray-500 ">
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 flex items-center justify-between h-16">
+      <div className="container mx-auto  lg:px-8 flex items-center justify-between  h-16">
         {/* Logo */}
         <div className="flex-shrink-0">
           <li className="text-2xl font-bold text-blue-500 list-none">
@@ -18,7 +18,7 @@ const [isOpen, setIsOpen] = useState(false);
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6 list-none">
+        <nav className="hidden md:flex space-x-3 lg:space-x-6 list-none text-nowrap">
           <li className="text-green-400 hover:text-blue-500 list-none text-base font-bold uppercase">
             <Link href="/"> Home</Link>
           </li>
@@ -70,9 +70,9 @@ const [isOpen, setIsOpen] = useState(false);
         </button>
 
         <div className="hidden md:flex ">
-          <div className="flex gap-2">
+          <div className="flex gap-2 w-full">
           <Link href="/account">
-            <button  className="bg-green-400 text-white hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold px-4 py-2 text-1xl lg:text-base text-nowrap md:text-[15px]">Login</button>
+            <button  className="bg-green-400 text-white hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold md:px-4 md:py-2 text-1xl lg:text-base text-nowrap md:text-[15px]">Login</button>
           </Link>
           <Link href="/account">
             <button  className="text-nowrap text-1xl lg:text-base md:text-[15px] border-2 border-green-400 white rounded-full d-blog px-4 py-[6px]  font-bold" >Sign Up</button></Link>
@@ -124,9 +124,9 @@ const [isOpen, setIsOpen] = useState(false);
         </nav>
 
         <div className="flex  items-center justify-center">
-          <div className="flex flex-col gap-2 text-center w-full ">
-            <button  className="w-[50%] bg-yellow-400 text-slate-800 hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold  py-2  text-1xl lg:text-base text-nowrap ">Login</button>
-              <button className="w-[50%] text-nowrap text-1xl lg:text-base  border-2 border-[#CEFF00] text-slate-800 rounded-full d-blog  py-2  font-bold" >Sign Up</button>
+          <div className="flex flex-col gap-2 text-center justify-center w-[40%] ">
+            <button  className="text-2xl bg-yellow-400 text-slate-800 hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold  py-2  text-1xl lg:text-base text-nowrap ">Login</button>
+              <button className="text-2xl text-nowrap text-1xl lg:text-base  border-2 border-[#CEFF00] text-slate-800 rounded-full d-blog  py-2  font-bold" >Sign Up</button>
           </div>
         </div>
 

@@ -41,8 +41,8 @@ const Hero = () => {
                         viewport={{ once: false }}
                         transition={{ duration: 1.1 }}
                     >
-                        <h1 className="text-3xl  sm:text-4xl  sm:mr-3 font-bold md:text-5xl">{service.title}</h1>
-                        <h1 className="text-2xl  sm:text-2xl  sm:mb-4 md:text-3xl font-bold flex sm:gap-3 mb-3">
+                        <h1 className="text-4xl  sm:text-4xl  sm:mr-3 font-bold md:text-5xl">{service.title}</h1>
+                        <h1 className="text-3xl  sm:text-2xl  sm:mb-4 md:text-3xl font-bold flex sm:gap-3 mb-3">
                             into
                             <Typewriter
                                 options={{
@@ -55,13 +55,13 @@ const Hero = () => {
                                 }}
                             />
                         </h1>
-                        <p className="md:text-2xl md:mb-4 mb-3 font-bold">{service.heading}<span className="text-[#4ce6e0] text-4xl md:text-5xl font-bold ml-2  title">AED 999</span></p>
-                        <p className="text-1xl sm:text-lg sm:mb-4 mb-2">{service.iconOne}{service.descriptionOne}</p>
-                        <p className="text-1xl sm:text-lg sm:mb-4 mb-2">{service.iconTwo}{service.descriptionTow}</p>
-                        <p className="text-1xl sm:text-lg sm:mb-4 mb-3">{service.iconThree}{service.descriptionThree}</p>
+                        <p className="text-3xl md:text-2xl md:mb-4 mb-3 font-bold">{service.heading}<span className="text-[#4ce6e0] text-4xl md:text-5xl font-bold ml-2  title">AED 999</span></p>
+                        <p className="text-2xl sm:text-lg sm:mb-4 mb-2">{service.iconOne}{service.descriptionOne}</p>
+                        <p className="text-2xl sm:text-lg sm:mb-4 mb-2">{service.iconTwo}{service.descriptionTow}</p>
+                        <p className="text-2xl sm:text-lg sm:mb-4 mb-3">{service.iconThree}{service.descriptionThree}</p>
                         <div className="md:flex">
                             <div className="">
-                                <li className="bg-green-400 text-white hover:bg-slate-800 hover:text-red-400 rounded-full font-bold px-4 py-2  text-[12px] sm:text-sm lg:text-base  list-none"> <Link href="/login">
+                                <li className="bg-green-400 text-white hover:bg-slate-800 hover:text-red-400 rounded-full font-bold px-4 py-2  text-[20px] sm:text-[12px] sm:text-sm lg:text-base  list-none"> <Link href="/login">
                                     Free Social Media Review
                                     <button className=""></button>
                                 </Link></li>
