@@ -7,6 +7,7 @@ import { IoLogoFacebook } from "react-icons/io";
 import { GoCodescanCheckmark } from "react-icons/go";
 import { MdPayment } from "react-icons/md";
 import Typewriter from 'typewriter-effect';
+import Header from "../components/Header";
 
 
 
@@ -69,6 +70,7 @@ const Hero = () => {
                     </motion.div>
                 ))}
             </div>
+            <Header/>
         </section>
     )
 }

@@ -45,11 +45,11 @@ const Brand = () => {
     return (
         <>
 
-            <div class="text-center pb-10 max-w-[513px] mx-auto mt-8">
+            <div class="text-center max-w-[513px] mx-auto mt-20">
                 <p data-aos="fade-up" class="text-1xl sm:text-2xl  font-bold tracking-widest f-f-DM leading-tight text-blue-700 uppercase mb-4 aos-init aos-animate">DIGITAL MARKETING AGENCY</p><p data-aos="fade-up" className="text-base font-extrabold f-f-Lato sm:text-1xl leading-6 text-center text-[#1B1D28] aos-init">We have achieved lot of Awards &amp; Recognitions Check some of our Achievements</p>
             </div>
 
-             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-4">
+             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-4 to-16">
                 {brands.map((brand, index) => (
                     <motion.div
                         key={index}

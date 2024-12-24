@@ -43,7 +43,7 @@ const Blogs = () => {
     ];
 
     return (
-        <section className="mx-auto">
+        <section className="mx-auto mt-20">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center">Our Blog</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 grid- md:grid-cols-2  lg:grid-cols-5 lg:auto-cols-fr lg:grid-flow-col  gap-1">
                 {blogs.map((blog, index) => (

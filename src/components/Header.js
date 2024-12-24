@@ -8,7 +8,7 @@ const [isOpen, setIsOpen] = useState(false);
 
   return (
 
-    <header className="shadow-md absolute top-0 right-0 left-0">
+    <header className="absolute top-0 right-0 left-0  border-b-[2px] border-gray-500 ">
       <div className="container mx-auto px-4 md:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex-shrink-0">
