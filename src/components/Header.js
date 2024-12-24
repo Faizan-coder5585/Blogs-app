@@ -126,10 +126,10 @@ const [isOpen, setIsOpen] = useState(false);
         <div className="flex  items-center justify-center">
           <div className="flex flex-col gap-2 text-center justify-center w-[50%] ">
           <Link href="/account">
-            <button  className="text-2xl bg-yellow-400 text-slate-800 hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold  py-2  text-1xl lg:text-base text-nowrap ">Login</button>
+            <button  className="text-2xl bg-yellow-400 text-slate-800 hover:bg-slate-800 hover:text-red-400 rounded-full  font-bold  py-2 px-14  text-2xl lg:text-base text-nowrap ">Login</button>
           </Link>
           <Link href="/account">
-              <button className="text-2xl text-nowrap text-1xl lg:text-base  border-2 border-[#CEFF00] text-slate-800 rounded-full d-blog  py-2  font-bold" >Sign Up</button>
+              <button className="text-2xl text-nowrap text-1xl lg:text-base  border-2 border-[#CEFF00] text-slate-800 rounded-full d-blog  py-2 px-12 font-bold" >Sign Up</button>
           </Link>
           </div>
         </div>
